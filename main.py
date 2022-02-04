@@ -9,7 +9,6 @@ from sqlalchemy.orm import relationship
 from flask_login import UserMixin, login_user, LoginManager, login_required, current_user, logout_user
 from forms import LoginForm, RegisterForm, CreatePostForm, CommentForm
 from flask_gravatar import Gravatar
-from boto.s3.connection import S3Connection
 import os
 
 app = Flask(__name__)
